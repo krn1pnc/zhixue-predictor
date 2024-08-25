@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name        Zhixue Predictor
-// @namespace   krn1pnc
+// @author      krn1pnc
 // @version     1.0
+// @license     GPL-3.0-or-later
+// @namespace   https://github.com/krn1pnc/zhixue-predictor
 // @description 在智学网中预测排名
 // @icon        https://static.zhixue.com/zhixue.ico
-// @author      krn1pnc
 // @match       https://www.zhixue.com/activitystudy/web-report/index.html*
 // ==/UserScript==
 
