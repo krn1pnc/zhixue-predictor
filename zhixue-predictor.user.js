@@ -28,7 +28,7 @@
                     let levelData = score.levelList.find((x) => x.name === score.improveBar.levelScale);
                     let upperBound = levelData.upperBound, lowerBound = levelData.lowBound;
                     let total = score.totalNum, offset = score.improveBar.offset;
-                    let rank = total * ((100 - offset) * upperBound + offset * lowerBound) / 10000;
+                    let rank = total * ((100 - offset) * upperBound + offset * lowerBound) / 10000 + 1;
                     rankListHtml +=
                         `<div class="sub-item">
                             <div class="subject">${score.tag.name}</div>
