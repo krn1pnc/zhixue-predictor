@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Zhixue Predictor
 // @author      krn1pnc
-// @version     1.1
+// @version     1.2
 // @license     GPL-3.0-or-later
 // @namespace   https://github.com/krn1pnc/zhixue-predictor
 // @description 在智学网中预测排名
