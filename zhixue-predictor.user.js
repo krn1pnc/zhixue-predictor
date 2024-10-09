@@ -14,8 +14,8 @@
 
     XMLHttpRequest.prototype._open = XMLHttpRequest.prototype.open;
     XMLHttpRequest.prototype.open = function(method, url, async, user, password) {
-        if (url.indexOf("https://www.zhixue.com/zhixuebao/report/exam/getLevelTrend") !== -1 ||
-            url.indexOf("https://www.zhixue.com/zhixuebao/report/paper/getLevelTrend") !== -1) {
+        if (url.indexOf("https://ali-bg.zhixue.com/zhixuebao/report/exam/getLevelTrend") !== -1 ||
+            url.indexOf("https://ali-bg.zhixue.com/zhixuebao/report/paper/getLevelTrend") !== -1) {
             this.addEventListener("load", function(e) {
                 const xhr = e.currentTarget;
                 if (xhr.readyState != 4) return;
